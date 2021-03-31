@@ -353,12 +353,8 @@ header {
   justify-content: center;
 }
 
-.section .item > li {
+.section .item > li:not(:last-child) {
   margin-right: 8px;
-}
-
-.section .item > li:last-child {
-  margin-right: 0;
 }
 
 .cards {
