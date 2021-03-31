@@ -298,15 +298,17 @@ img {
 
 /* портфолио */
 .button-section {
+  padding: 6px 22px;
+  min-width: 73px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   color: var(--primary-text-color);
+  font-family: inherit;
   cursor: pointer;
-  margin-right: 8px;
 
   border-radius: 4px;
+  border: none;
 }
 
 .button-section:focus,
@@ -344,8 +346,16 @@ img {
 
 .section .item {
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 50px;
+  justify-content: center;
+}
+
+.section .item > li {
+  margin-right: 8px;
+}
+
+.section .item > li:last-child {
+  margin-right: 0;
 }
 
 .cards {
