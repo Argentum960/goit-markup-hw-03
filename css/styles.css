@@ -39,13 +39,16 @@ p {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  /* outline: 2px solid teal; */
 }
 
 img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+header {
+  border: 1px solid #ececec;
 }
 
 /* logo */
